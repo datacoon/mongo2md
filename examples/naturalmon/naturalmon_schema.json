@@ -1,0 +1,44 @@
+{
+    "_id": {
+        "type": "string"
+    },
+    "_uniqkey": {
+        "type": "string"
+    },
+    "activities": {
+        "type": "string"
+    },
+    "activitiesname": {
+        "type": "string"
+    },
+    "activitiespart": {
+        "type": "string"
+    },
+    "area": {
+        "type": "string"
+    },
+    "decision_date": {
+        "type": "datetime"
+    },
+    "decision_number": {
+        "type": "string"
+    },
+    "numberinreestr": {
+        "type": "string"
+    },
+    "orginn": {
+        "type": "string"
+    },
+    "orgkpp": {
+        "type": "string"
+    },
+    "orglegaladdress": {
+        "type": "string"
+    },
+    "orgname": {
+        "type": "string"
+    },
+    "regionname": {
+        "type": "string"
+    }
+}
