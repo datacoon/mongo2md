@@ -111,13 +111,13 @@ class Documenter:
             tables.append({'name' : name, 'displayName' : '', 'description' : ''})
             scheme = generate_scheme(db[name], alimit=scheme_limit)
             outfile = os.path.join(projpath, '%s_schema.json' % name)
-            f = open(outfile, 'w', encoding='utf8')
+            f = open(outfile, 'w', encoding='utf8', newline='')
             f.write(json.dumps(scheme, indent=4, sort_keys=True))
             f.close()
 
             fieldslist = schema2fieldslist(scheme)
             outfile = os.path.join(projpath, '%s_fields.csv' % name)
-            f = open(outfile, 'w', encoding='utf8')
+            f = open(outfile, 'w', encoding='utf8', newline='')
             wr = csv.DictWriter(f, delimiter=';', fieldnames=['name', 'type', 'description'])
             wr.writeheader()
             wr.writerows(fieldslist)
@@ -126,12 +126,12 @@ class Documenter:
             total = db[name].count()
             entry = db[name].find().limit(-1).skip(randint(0, total-1)).next()
             outfile = os.path.join(projpath, '%s_example.json' % name)
-            f = open(outfile, 'w', encoding='utf8')
+            f = open(outfile, 'w', encoding='utf8', newline='')
             f.write(dumps(entry, indent=4, sort_keys=True))
             f.close()
 
 
-        tab_file = open(os.path.join(projpath, 'tables.csv'), 'w', encoding='utf8')
+        tab_file = open(os.path.join(projpath, 'tables.csv'), 'w', encoding='utf8', newline='')
         wr = csv.DictWriter(tab_file, delimiter=';', fieldnames=['name', 'displayName', 'description'])
         wr.writeheader()
         wr.writerows(tables)
@@ -153,15 +153,15 @@ class Documenter:
         if buildsingle:
             md = '# Data stuctures\n'
         for table in tables:
-            f = open(projpath + '/%s_schema.json' % table['name'], 'r', encoding='utf8')
+            f = open(os.path.join(projpath, '%s_schema.json' % table['name']), 'r', encoding='utf8')
             schema = json.load(f)
             f.close()
-            f = open(projpath + '/%s_example.json' % table['name'], 'r', encoding='utf8')
+            f = open(os.path.join(projpath, '%s_example.json') % table['name'], 'r', encoding='utf8')
             example = loads(f.read())
             f.close()
 
             fields = {}
-            f = open(projpath + '/%s_fields.csv' % table['name'], 'r', encoding='utf8')
+            f = open(os.path.join(projpath, '%s_fields.csv' % table['name']), 'r', encoding='utf8')
             reader = csv.DictReader(f, delimiter=';')
             for r in reader:
                 fields[r['name']] = r

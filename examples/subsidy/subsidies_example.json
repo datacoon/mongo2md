@@ -1,0 +1,279 @@
+{
+    "_id": {
+        "$oid": "5e64f84642559cfd45fbeaa1"
+    },
+    "addagreement": [],
+    "bo": [
+        {
+            "cause": "",
+            "dateAccount": "2015-08-14T00:00:00",
+            "dateUnderwrite": "2015-08-14T00:00:00",
+            "fio": "\u042e.\u0424. \u042f\u043a\u043e\u0432\u043b\u0435\u0432\u0430",
+            "head": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442",
+            "number": "1950077715000773"
+        }
+    ],
+    "changes": [
+        {
+            "date": "-1",
+            "docdate": "2015-08-19T00:00:00",
+            "docsosn": "0",
+            "guid": "1DB6EF04-8F6D-01BC-E053-0A5F081DBB0F",
+            "num": "77715397000018",
+            "numberdoc": "307576",
+            "text": "START-016|PAY-1|ATT-1",
+            "vidssdop": ""
+        },
+        {
+            "date": "-1",
+            "docdate": "2015-09-30T00:00:00",
+            "docsosn": "0",
+            "guid": "20f18c10-c8aa-0098-e053-0a5f081d9f06",
+            "num": "77715397000021",
+            "numberdoc": "9500/15-5260",
+            "text": "",
+            "vidssdop": ""
+        },
+        {
+            "date": "-1",
+            "docdate": "2015-10-02T00:00:00",
+            "docsosn": "0",
+            "guid": "212c218d-04f8-00b6-e053-0a5f081d988d",
+            "num": "77715397000022",
+            "numberdoc": "380319",
+            "text": "",
+            "vidssdop": ""
+        },
+        {
+            "date": "-1",
+            "docdate": "2015-08-14T00:00:00",
+            "docsosn": "1",
+            "guid": "91C1FDEF-7A22-452A-866B-76549171BFD3",
+            "num": "77715397000016",
+            "numberdoc": "441.",
+            "text": "START-000|GRBS_NAME-1|GRBS_PLACE-1|GRBS_INN-1|GRBS_CODE-1|GRBS_LS-1|REC_NAME-1|REC_PLACE-1|REC_INN-1|DOCOSN_VID-1|DOCOSN_REC-1|DOCOSN_TIME-1|DOCOSN_SUM-1|DOCOSN_RESULT-0|OD-1|AMOUNT-1|KBK-1|ATT-1",
+            "vidssdop": ""
+        }
+    ],
+    "construct": [],
+    "documents": [
+        {
+            "contentType": "application/pdf",
+            "date": "2015-10-02T00:00:00",
+            "guid": "",
+            "id": "5105989",
+            "loaddate": null,
+            "name": "20150812_\u0421\u042e\u041b_591.pdf",
+            "size": "371115"
+        },
+        {
+            "contentType": "application/pdf",
+            "date": "2015-08-19T00:00:00",
+            "guid": "",
+            "id": "4876370",
+            "loaddate": null,
+            "name": "\u041f\u041f_0_N_307576_19.08.15.PDF",
+            "size": "21065"
+        }
+    ],
+    "faip": [],
+    "faipSubject": [],
+    "grbs": {
+        "buildingType": "",
+        "codeBudgetreg": "00100777",
+        "codeReestr": "00100777",
+        "countryCode": "",
+        "countryName": "",
+        "dateAccount": "2013-05-24T00:00:00",
+        "districtName": "",
+        "fullName": "\u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0441\u043f\u043e\u0440\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438",
+        "grbsAccount": "03951007770",
+        "inn": "7703771271",
+        "kbkInput": "777",
+        "kpp": "770901001",
+        "localCode": "",
+        "localName": "\u041c\u043e\u0441\u043a\u0432\u0430",
+        "location": "77,\u041c\u043e\u0441\u043a\u0432\u0430,\u041c\u043e\u0441\u043a\u0432\u0430,45375000,\u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u0411\u0430\u0441\u043c\u0430\u043d\u043d\u044b\u0439,\u0443\u043b\u0438\u0446\u0430 \u041a\u0430\u0437\u0430\u043a\u043e\u0432\u0430,",
+        "locationOktmo": "45375000",
+        "objectType": "",
+        "ogrn": "",
+        "okopf": "20904",
+        "postIndex": "",
+        "regionCode": "77",
+        "regionName": "\u041c\u043e\u0441\u043a\u0432\u0430",
+        "roomType": "",
+        "settleName": "",
+        "shortName": "\u041c\u0438\u043d\u0441\u043f\u043e\u0440\u0442 \u0420\u043e\u0441\u0441\u0438\u0438",
+        "streetType": "\u0443\u043b\u0438\u0446\u0430 \u041a\u0430\u0437\u0430\u043a\u043e\u0432\u0430",
+        "structType": "\u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u0411\u0430\u0441\u043c\u0430\u043d\u043d\u044b\u0439",
+        "tofkcode": "9500",
+        "tofkname": "\u041c\u0435\u0436\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u0430\u0437\u043d\u0430\u0447\u0435\u0439\u0441\u0442\u0432\u0430"
+    },
+    "id": "147391",
+    "info": {
+        "ap_mrk": "",
+        "code": "121",
+        "currencyCode": "643",
+        "currencyName": "\u0440\u0443\u0431\u043b\u044c",
+        "currencySum": 95940000.0,
+        "dateAgreem": "2015-08-12T00:00:00",
+        "dateReg": null,
+        "dateUpdate": "2019-08-05T00:00:00",
+        "endDate": "2015-12-31T00:00:00",
+        "internaldocnum": "",
+        "loaddate": "2019-10-03T13:53:30",
+        "mfCode": "",
+        "mfName": "",
+        "name": "\u0421\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f (\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430), \u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0435 \u0413\u0420\u0411\u0421 \u043e \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0438 \u0441\u0443\u0431\u0441\u0438\u0434\u0438\u0439 \u0438\u0437 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0431\u044e\u0434\u0436\u0435\u0442\u0430.",
+        "nameNpa": "",
+        "npaKind": "",
+        "numAgreem": "591",
+        "numberNpa": "",
+        "outerSystem": "PUR",
+        "rate": 1.0,
+        "regNum": "77715397000",
+        "regnumRgz": "",
+        "startDate": "2015-08-12T00:00:00",
+        "sum": 95940000.0,
+        "sumMba": null,
+        "sumMbamo": null,
+        "sumSubFzFb": null,
+        "t_summ": null,
+        "ts_mrk": ""
+    },
+    "infocost": [],
+    "infoind": [],
+    "infosub": [],
+    "marks": [],
+    "npa": [
+        {
+            "acceptDate": null,
+            "endDate": null,
+            "npaKind": "",
+            "npaName": "",
+            "npaNumber": "",
+            "regDate": null,
+            "regNum": ""
+        }
+    ],
+    "payments": [
+        {
+            "currencyCode": "643",
+            "currencyName": "\u0440\u0443\u0431\u043b\u044c",
+            "date": "2015-08-19T00:00:00",
+            "document": null,
+            "num": "307576",
+            "rate": 1.0,
+            "sumCurrency": 95940000.0,
+            "sumRub": 95940000.0
+        },
+        {
+            "currencyCode": "RUB",
+            "currencyName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c",
+            "date": "2015-09-30T00:00:00",
+            "document": null,
+            "num": "9500/15-5260",
+            "rate": 1.0,
+            "sumCurrency": -95940000.0,
+            "sumRub": -95940000.0
+        },
+        {
+            "currencyCode": "643",
+            "currencyName": "\u0440\u0443\u0431\u043b\u044c",
+            "date": "2015-10-02T00:00:00",
+            "document": {
+                "contentType": "",
+                "date": "2015-10-02T00:00:00",
+                "guid": "212c218d-04f8-00b6-e053-0a5f081d988d",
+                "id": "5105990",
+                "loaddate": "2019-10-03T14:35:59",
+                "name": "\u041f\u041f_0_N_380319_02.10.15.PDF",
+                "size": "21046"
+            },
+            "num": "380319",
+            "rate": 1.0,
+            "sumCurrency": 95940000.0,
+            "sumRub": 95940000.0
+        }
+    ],
+    "plans": [],
+    "plansNormalized": [],
+    "plansSubject": [],
+    "receiver": [
+        {
+            "accountNum": "",
+            "accountOrgCode": "",
+            "admelement": "",
+            "budgetName": "",
+            "codeBudgetreg": "920\u042d1859",
+            "codeRecipient": "",
+            "codeReestr": "",
+            "codeReestrGrbs": "",
+            "dateAccount": "2009-08-14T00:00:00",
+            "detached": "",
+            "email": "",
+            "foreignAddress": {
+                "buildingType": "",
+                "countryCode": "",
+                "countryName": "",
+                "districtName": "",
+                "localCode": "",
+                "localName": "",
+                "object": "",
+                "oktmo": "",
+                "postIndex": "",
+                "regionCode": "",
+                "regionName": "",
+                "roomType": "",
+                "settleName": "",
+                "street": "\u0443\u043b\u0438\u0446\u0430 \u0411\u0430\u0443\u043c\u0430\u043d\u0430",
+                "streetType": "",
+                "struct": ""
+            },
+            "fullName": "\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u0430\u044f \u043d\u0435\u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0430\u044f \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \"\u0418\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0434\u0438\u0440\u0435\u043a\u0446\u0438\u044f XXVII \u0412\u0441\u0435\u043c\u0438\u0440\u043d\u043e\u0439 \u043b\u0435\u0442\u043d\u0435\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0430\u0434\u044b 2013 \u0433\u043e\u0434\u0430 \u0432 \u0433.\u041a\u0430\u0437\u0430\u043d\u0438\"",
+            "fullNameLat": "",
+            "grbsFullName": "",
+            "inn": "1655068636",
+            "institutetype": "",
+            "institutetypename": "",
+            "kpp": "165501001",
+            "localAddress": {
+                "buildingType": "",
+                "countryCode": "",
+                "countryName": "",
+                "districtName": "",
+                "localCode": "",
+                "localName": "\u041a\u0430\u0437\u0430\u043d\u044c",
+                "object": "",
+                "oktmo": "92701000",
+                "postIndex": "",
+                "regionCode": "16",
+                "regionCodeFixed": "16",
+                "regionName": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d",
+                "roomType": "",
+                "settleName": "",
+                "street": "",
+                "streetType": "",
+                "struct": ""
+            },
+            "ogrn": "",
+            "okopf": "28001",
+            "oktmo": "",
+            "phoneNumber": "",
+            "regCountryCode": "",
+            "regCountryName": "",
+            "shortName": "\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u0430\u044f \u043d\u0435\u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0430\u044f \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \"\u0418\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0434\u0438\u0440\u0435\u043a\u0446\u0438\u044f XXVII \u0412\u0441\u0435\u043c\u0438\u0440\u043d\u043e\u0439 \u043b\u0435\u0442\u043d\u0435\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0430\u0434\u044b 2013 \u0433\u043e\u0434\u0430 \u0432 \u0433.\u041a\u0430\u0437\u0430\u043d\u0438\"",
+            "shortNameLat": ""
+        }
+    ],
+    "reportdocs": [],
+    "subjectNpa": [
+        {
+            "dateAccept": null,
+            "kind": "",
+            "name": "",
+            "number": ""
+        }
+    ],
+    "typereport": []
+}
