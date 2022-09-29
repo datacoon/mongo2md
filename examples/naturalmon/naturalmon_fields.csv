@@ -1,15 +1,15 @@
-name;type;description
-_id;string;MongoDB Unique identifier
-regionname;string;Name of the region of Russia
-activitiespart;string;Activity type
-activitiesname;string;Activity name
-numberinreestr;string;Registry number
-orgname;string;Organization name
-orglegaladdress;string;Legal address
-orginn;string;INN code of the organization
-decision_date;datetime;Date of decision
-decision_number;string;Number of decision
-_uniqkey;string;Unique identifier
-area;string;Area of activity
-activities;string;Activities name
-orgkpp;string;Organization KPP code
+name;type;description
+_id;string;
+regionname;string;
+activitiespart;string;
+activitiesname;string;
+numberinreestr;string;
+orgname;string;
+orglegaladdress;string;
+orginn;string;
+decision_date;datetime;
+decision_number;string;
+_uniqkey;string;
+area;string;
+activities;string;
+orgkpp;string;

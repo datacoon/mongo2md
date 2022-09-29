@@ -1,0 +1,696 @@
+name;type;description
+_id;string;Уникальный суррогатный ключ
+faipSubject;list of [array];График платежей
+infosub;list of [array];В блоке отражена информация о неиспользованных по итогам финансового года остаткам субсидий, бюджетных инвестиций, межбюджетных трансфертов.
+plans;list of [array];График платежей
+plans.sumSkYear;float;Сумма (размер) субсидии в рублях на второй год планового периода.
+plans.sumTotal;float;Общая сумма (размер) субсидии
+plans.date;string;Дата обновления сведений о соглашении
+plans.sumFtYear;float;Сумма (размер) субсидии в рублях на первый год планового периода.
+plans.purpose;string;Текстовое пояснение цели и направления расходования средств.
+plans.sumOtherYear;float;
+plans.code;string;Код цели и направления расходования средств.
+plans.sumLastYrNexec;string;Сумма неисполненного обязательства прошлых лет
+plans.sumTrYear;float;Сумма (размер) субсидии в рублях на третий год планового периода.
+plans.note;string;Примечание
+plans.sumMonth;list of [array];Сумма (размер) субсидии в рублях за текущий год по месяцам
+plans.analyticalCode;string;Аналитический код
+plans.sumYear;float;Сумма (размер) субсидии в рублях на текущий финансовый год.
+plans.sumFrYear;float;Сумма (размер) субсидии в рублях на четвертый год планового периода.
+plans.kbk;string;КБК по которому предусмотрены ЛБО на предоставление субсидии.
+plans.sumLastYrExec;string;Сумма исполненного обязательства прошлых лет
+addagreement;list of [array];В блоке указаны сведения о дополнительных соглашениях.
+plansSubject;list of [array];График платежей
+id;string;Уникальный суррогатный ключ
+payments;list of [array];В блоке указаны сведения о платежах по соглашению. Блок является необязательным. Для одного соглашения может указываться несколько платежей.
+payments.currencyName;string;Наименование валюты по общероссийскому классификатору валют.
+payments.document;string;Документ обоснования
+payments.currencyCode;string;Цифровой код валюты по общероссийскому классификатору валют.
+payments.date;datetime;Дата передачи файла вложения.
+payments.sumCurrency;float;Сумма платежного документа в валюте субсидии.
+payments.rate;float;Курс иностранной валюты по отношению к рублю.
+payments.num;string;Номер платежного документа.
+payments.sumRub;float;Сумма платежного документа в рублях.
+infocost;list of [array];В блоке отражена информация об осуществлении расходов, источником финансирования обеспечения которых являются субсидии, бюджетные инвестиции, межбюджетные трансферты.
+info;dict;
+info.internaldocnum;string;
+info.npaKind;string;
+info.sum;float;
+info.ts_mrk;string;
+info.numberNpa;string;
+info.code;string;
+info.endDate;datetime;
+info.loaddate;datetime;
+info.ap_mrk;string;
+info.nameNpa;string;
+info.startDate;datetime;
+info.t_summ;string;
+info.sumMbamo;string;
+info.name;string;
+info.mfName;string;
+info.dateUpdate;datetime;
+info.dateReg;string;
+info.currencyName;string;Наименование валюты по общероссийскому классификатору валют.
+info.currencyCode;string;Цифровой код валюты по общероссийскому классификатору валют.
+info.sumSubFzFb;string;
+info.dateAgreem;datetime;
+info.regNum;string;
+info.rate;float;Курс иностранной валюты по отношению к рублю.
+info.regnumRgz;string;
+info.numAgreem;string;
+info.outerSystem;string;
+info.currencySum;float;
+info.sumMba;string;
+info.mfCode;string;
+receiver;list of [array];В блоке указаны сведения о получателях субсидий. Блок является обязательным. Для одного соглашения может указываться несколько получателей субсидий.
+receiver.oktmo;string;Код территории субъекта РФ в соответствии с Общероссийским классификатором территорий муниципальных образований, которому предоставляется межбюджетный трансферт.
+receiver.shortName;string;Сокращенное наименование юридического лица на русском языке.
+receiver.dateAccount;datetime;Дата постановки на учет в налоговом органе.
+receiver.detached;string;Признак обособленного подразделения (филиала) для получателя. Техническое поле. Определяется по Реестру участников бюджетного процесса, а также юридических лиц, не являющихся участниками бюджетного процесса
+receiver.institutetypename;string;Тип учреждения получателя (наименование). Техническое поле. Определяется по Реестру участников бюджетного процесса, а также юридических лиц, не являющихся участниками бюджетного процесса
+receiver.budgetName;string;Наименование бюджета субъекта РФ, которому предоставляется межбюджетный трансферт.
+receiver.codeReestrGrbs;string;
+receiver.foreignAddress;dict;Местоположения иностранного юридического лица в стране регистрации
+receiver.foreignAddress.regionCode;string;Уникальный код региона
+receiver.foreignAddress.buildingType;string;Тип и номер здания/ сооружения.
+receiver.foreignAddress.oktmo;string;ОКТМО населенного пункта
+receiver.foreignAddress.districtName;string;Наименование муниципального района, городского округа или внутригородской территории в составе субъекта Российской Федерации
+receiver.foreignAddress.localName;string;Наименование населенного пункта
+receiver.foreignAddress.countryName;string;Наименование страны
+receiver.foreignAddress.struct;string;Наименование элемента планировочной структуры
+receiver.foreignAddress.street;string;Наименование объекта улично-дорожной сети
+receiver.foreignAddress.streetType;string;
+receiver.foreignAddress.localCode;string;Населенный пункт
+receiver.foreignAddress.settleName;string;Наименование городского/сельского поселения в составе муниципального района или внутригородского района городского округа
+receiver.foreignAddress.regionName;string;
+receiver.foreignAddress.countryCode;string;Кодовое обозначение страны
+receiver.foreignAddress.postIndex;string;Почтовый индекс
+receiver.foreignAddress.object;string;Тип объекта
+receiver.foreignAddress.roomType;string;Тип и номер помещения, расположенного в здании/сооружении.
+receiver.phoneNumber;string;
+receiver.codeRecipient;string;Код налогоплательщика в стране регистрации или его аналог.
+receiver.accountOrgCode;string;Учетный код организации
+receiver.fullName;string;Полное наименование юридического лица получателя субсидии на русском языке или ФИО физического лица получателя субсидии на русском языке.
+receiver.localAddress;dict;Код налогоплательщика в стране регистрации или его аналог.
+receiver.localAddress.regionCode;string;Код субъекта
+receiver.localAddress.buildingType;string;Тип и номер здания/ сооружения.
+receiver.localAddress.streetType;string;
+receiver.localAddress.oktmo;string;ОКТМО населенного пункта
+receiver.localAddress.districtName;string;Наименование муниципального района, городского округа или внутригородской территории в составе субъекта Российской Федерации
+receiver.localAddress.localName;string;Наименование населенного пункта
+receiver.localAddress.countryName;string;Наименование страны
+receiver.localAddress.struct;string;Наименование элемента планировочной структуры
+receiver.localAddress.street;string;Наименование объекта улично-дорожной сети
+receiver.localAddress.regionCodeFixed;string;
+receiver.localAddress.localCode;string;Населенный пункт
+receiver.localAddress.settleName;string;Наименование городского/сельского поселения в составе муниципального района или внутригородского района городского округа
+receiver.localAddress.regionName;string;
+receiver.localAddress.countryCode;string;Кодовое обозначение страны
+receiver.localAddress.postIndex;string;Почтовый индекс
+receiver.localAddress.object;string;Тип объекта
+receiver.localAddress.roomType;string;Тип и номер помещения, расположенного в здании/сооружении.
+receiver.shortNameLat;string;Сокращенное наименование на латинице
+receiver.admelement;string;Наименование элементов административного устройства страны регистрации иностранного юридического лица (для иностранного лица)
+receiver.regCountryName;string;Страна регистрации иностранного юридического лица
+receiver.email;string;Адреса электронной почты(для иностранного лица)
+receiver.grbsFullName;string;Полное наименование ГРБС бюджета субъекта  Российской Федерации в отношении расходов бюджета субъекта Российской Федерации, источником финансового обеспечения которого является  субсидия
+receiver.accountNum;string;Номер лицевого счета
+receiver.ogrn;string;
+receiver.fullNameLat;string;олное наименование юридического лица / ФИО физического лица с использованием букв латинского алфавита.
+receiver.inn;string;ИНН юридического или физического лица получателя субсидии (при наличии).
+receiver.okopf;string;Код по общероссийскому классификатору организационно-правовых форм.
+receiver.codeReestr;string;Код по сводному реестру
+receiver.codeBudgetreg;string;
+receiver.regCountryCode;string;Код страны регистрации иностранного юридического лица
+receiver.institutetype;string;Тип учреждения получателя (код). Техническое поле. Определяется по Реестру участников бюджетного процесса, а также юридических лиц, не являющихся участниками бюджетного процесса
+receiver.kpp;string;КПП юридического лица получателя субсидии (при наличии).
+construct;list of [array];В блоке указаны сведения об объектах капитального строительства. Блок является необязательным.  Для одного соглашения может указываться несколько объектов капитального строительства.
+bo;list of [array];В блоке указаны сведения о принятых на учет бюджетных обязательствах. Блок является необязательным.  Для одного соглашения может указываться только одно.
+reportdocs;list of [array];
+npa;list of [array];В блоке указаны сведения о НПА, определяющих правила предоставления из федерального бюджета субсидий, бюджетных инвестиций, межбюджетных трансфертов. Блок является необязательным. Для одного соглашения может указываться несколько НПА.
+marks;list of [array];В блоке указаны сведения о показателях результативности. Блок является необязательным. Для одного соглашения может указываться несколько показателей результативности.
+faip;list of [array];График платежей по коду ФАИП.
+plansNormalized;list of [array];Нормализованное описание графика платежей
+plansNormalized.byYear;dict;Платежи по годам
+plansNormalized.byYear.2014;dict;Платежи по годам за 2014 год
+plansNormalized.byYear.2014.byMonth;dict;
+plansNormalized.byYear.2014.byMonth.9;float;
+plansNormalized.byYear.2014.byMonth.12;float;
+plansNormalized.byYear.2014.byMonth.10;float;
+plansNormalized.byYear.2014.byMonth.6;float;
+plansNormalized.byYear.2014.byMonth.7;float;
+plansNormalized.byYear.2014.byMonth.1;float;
+plansNormalized.byYear.2014.byMonth.11;float;
+plansNormalized.byYear.2014.byMonth.4;float;
+plansNormalized.byYear.2014.byMonth.5;float;
+plansNormalized.byYear.2014.byMonth.3;float;
+plansNormalized.byYear.2014.byMonth.2;float;
+plansNormalized.byYear.2014.byMonth.8;float;
+plansNormalized.byYear.2014.total;float;
+plansNormalized.byYear.2019;dict;Платежи по годам за 2019 год
+plansNormalized.byYear.2019.byMonth;dict;
+plansNormalized.byYear.2019.byMonth.9;float;
+plansNormalized.byYear.2019.byMonth.12;float;
+plansNormalized.byYear.2019.byMonth.10;float;
+plansNormalized.byYear.2019.byMonth.6;float;
+plansNormalized.byYear.2019.byMonth.7;float;
+plansNormalized.byYear.2019.byMonth.1;float;
+plansNormalized.byYear.2019.byMonth.11;float;
+plansNormalized.byYear.2019.byMonth.4;float;
+plansNormalized.byYear.2019.byMonth.5;float;
+plansNormalized.byYear.2019.byMonth.3;float;
+plansNormalized.byYear.2019.byMonth.2;float;
+plansNormalized.byYear.2019.byMonth.8;float;
+plansNormalized.byYear.2019.total;float;
+plansNormalized.byYear.2021;dict;Платежи по годам за 2021 год
+plansNormalized.byYear.2021.byMonth;dict;
+plansNormalized.byYear.2021.byMonth.9;float;
+plansNormalized.byYear.2021.byMonth.12;float;
+plansNormalized.byYear.2021.byMonth.10;float;
+plansNormalized.byYear.2021.byMonth.6;float;
+plansNormalized.byYear.2021.byMonth.7;float;
+plansNormalized.byYear.2021.byMonth.1;float;
+plansNormalized.byYear.2021.byMonth.11;float;
+plansNormalized.byYear.2021.byMonth.4;float;
+plansNormalized.byYear.2021.byMonth.5;float;
+plansNormalized.byYear.2021.byMonth.3;float;
+plansNormalized.byYear.2021.byMonth.2;float;
+plansNormalized.byYear.2021.byMonth.8;float;
+plansNormalized.byYear.2021.total;float;
+plansNormalized.byYear.2020;dict;Платежи по годам за 2020 год
+plansNormalized.byYear.2020.byMonth;dict;
+plansNormalized.byYear.2020.byMonth.9;float;
+plansNormalized.byYear.2020.byMonth.12;float;
+plansNormalized.byYear.2020.byMonth.10;float;
+plansNormalized.byYear.2020.byMonth.6;float;
+plansNormalized.byYear.2020.byMonth.7;float;
+plansNormalized.byYear.2020.byMonth.1;float;
+plansNormalized.byYear.2020.byMonth.11;float;
+plansNormalized.byYear.2020.byMonth.4;float;
+plansNormalized.byYear.2020.byMonth.5;float;
+plansNormalized.byYear.2020.byMonth.3;float;
+plansNormalized.byYear.2020.byMonth.2;float;
+plansNormalized.byYear.2020.byMonth.8;float;
+plansNormalized.byYear.2020.total;float;
+plansNormalized.byYear.2022;dict;Платежи по годам за 2022 год
+plansNormalized.byYear.2022.byMonth;dict;
+plansNormalized.byYear.2022.byMonth.9;float;
+plansNormalized.byYear.2022.byMonth.12;float;
+plansNormalized.byYear.2022.byMonth.10;float;
+plansNormalized.byYear.2022.byMonth.6;float;
+plansNormalized.byYear.2022.byMonth.7;float;
+plansNormalized.byYear.2022.byMonth.1;float;
+plansNormalized.byYear.2022.byMonth.11;float;
+plansNormalized.byYear.2022.byMonth.4;float;
+plansNormalized.byYear.2022.byMonth.5;float;
+plansNormalized.byYear.2022.byMonth.3;float;
+plansNormalized.byYear.2022.byMonth.2;float;
+plansNormalized.byYear.2022.byMonth.8;float;
+plansNormalized.byYear.2022.total;float;
+plansNormalized.byYear.2018;dict;Платежи по годам за 2018 год
+plansNormalized.byYear.2018.byMonth;dict;
+plansNormalized.byYear.2018.byMonth.9;float;
+plansNormalized.byYear.2018.byMonth.12;float;
+plansNormalized.byYear.2018.byMonth.10;float;
+plansNormalized.byYear.2018.byMonth.6;float;
+plansNormalized.byYear.2018.byMonth.7;float;
+plansNormalized.byYear.2018.byMonth.1;float;
+plansNormalized.byYear.2018.byMonth.11;float;
+plansNormalized.byYear.2018.byMonth.4;float;
+plansNormalized.byYear.2018.byMonth.5;float;
+plansNormalized.byYear.2018.byMonth.3;float;
+plansNormalized.byYear.2018.byMonth.2;float;
+plansNormalized.byYear.2018.byMonth.8;float;
+plansNormalized.byYear.2018.total;float;
+plansNormalized.byYear.2015;dict;Платежи по годам за 2015 год
+plansNormalized.byYear.2015.byMonth;dict;
+plansNormalized.byYear.2015.byMonth.9;float;
+plansNormalized.byYear.2015.byMonth.12;float;
+plansNormalized.byYear.2015.byMonth.10;float;
+plansNormalized.byYear.2015.byMonth.6;float;
+plansNormalized.byYear.2015.byMonth.7;float;
+plansNormalized.byYear.2015.byMonth.1;float;
+plansNormalized.byYear.2015.byMonth.11;float;
+plansNormalized.byYear.2015.byMonth.4;float;
+plansNormalized.byYear.2015.byMonth.5;float;
+plansNormalized.byYear.2015.byMonth.3;float;
+plansNormalized.byYear.2015.byMonth.2;float;
+plansNormalized.byYear.2015.byMonth.8;float;
+plansNormalized.byYear.2015.total;float;
+plansNormalized.byYear.2023;dict;Платежи по годам за 2023 год
+plansNormalized.byYear.2023.byMonth;dict;
+plansNormalized.byYear.2023.byMonth.9;float;
+plansNormalized.byYear.2023.byMonth.12;float;
+plansNormalized.byYear.2023.byMonth.10;float;
+plansNormalized.byYear.2023.byMonth.6;float;
+plansNormalized.byYear.2023.byMonth.7;float;
+plansNormalized.byYear.2023.byMonth.1;float;
+plansNormalized.byYear.2023.byMonth.11;float;
+plansNormalized.byYear.2023.byMonth.4;float;
+plansNormalized.byYear.2023.byMonth.5;float;
+plansNormalized.byYear.2023.byMonth.3;float;
+plansNormalized.byYear.2023.byMonth.2;float;
+plansNormalized.byYear.2023.byMonth.8;float;
+plansNormalized.byYear.2023.total;float;
+plansNormalized.byYear.2017;dict;Платежи по годам за 2017 год
+plansNormalized.byYear.2017.byMonth;dict;
+plansNormalized.byYear.2017.byMonth.9;float;
+plansNormalized.byYear.2017.byMonth.12;float;
+plansNormalized.byYear.2017.byMonth.10;float;
+plansNormalized.byYear.2017.byMonth.6;float;
+plansNormalized.byYear.2017.byMonth.7;float;
+plansNormalized.byYear.2017.byMonth.1;float;
+plansNormalized.byYear.2017.byMonth.11;float;
+plansNormalized.byYear.2017.byMonth.4;float;
+plansNormalized.byYear.2017.byMonth.5;float;
+plansNormalized.byYear.2017.byMonth.3;float;
+plansNormalized.byYear.2017.byMonth.2;float;
+plansNormalized.byYear.2017.byMonth.8;float;
+plansNormalized.byYear.2017.total;float;
+plansNormalized.byYear.2016;dict;Платежи по годам за 2016 год
+plansNormalized.byYear.2016.byMonth;dict;
+plansNormalized.byYear.2016.byMonth.9;float;
+plansNormalized.byYear.2016.byMonth.12;float;
+plansNormalized.byYear.2016.byMonth.10;float;
+plansNormalized.byYear.2016.byMonth.6;float;
+plansNormalized.byYear.2016.byMonth.7;float;
+plansNormalized.byYear.2016.byMonth.1;float;
+plansNormalized.byYear.2016.byMonth.11;float;
+plansNormalized.byYear.2016.byMonth.4;float;
+plansNormalized.byYear.2016.byMonth.5;float;
+plansNormalized.byYear.2016.byMonth.3;float;
+plansNormalized.byYear.2016.byMonth.2;float;
+plansNormalized.byYear.2016.byMonth.8;float;
+plansNormalized.byYear.2016.total;float;
+plansNormalized.purpose;string;Текстовое пояснение цели и направления расходования средств.
+plansNormalized.sumLastYrNexec;string;Сумма неисполненного обязательства прошлых лет
+plansNormalized.sumTotal;float;Общая сумма (размер) субсидии
+plansNormalized.kbkCode;string;
+plansNormalized.sumLastYrExec;string;Сумма исполненного обязательства прошлых лет
+infoind;list of [array];В блоке отражена информация о достигнутых значениях показателей (целевых показателей) результативности использования субсидий.
+documents;list of [array];В блоке указаны сведения о вложениях по реестровой записи. Блок является необязательным. У одного соглашения может быть несколько вложений.
+documents.guid;string;Уникальный GUID
+documents.size;string;Размер файла в байтах
+documents.date;datetime;Дата передачи файла вложения.
+documents.loaddate;string;Дата загрузки файла вложения
+documents.id;string;Уникальный суррогатный ключ
+documents.name;string;Имя файла вложения.
+documents.contentType;string;Тип контента, например: image/jpeg.
+typereport;list of [array];Типы отчетов
+subjectNpa;list of [array];В блоке указаны сведения о НПА, устанавливающих распределение субсидии между субъектами Российской Федерации. Блок является необязательным.  Для одного соглашения может указываться только одно НПА.
+changes;list of [array];В блоке указаны сведения о изменениях реестровой записи. Блок является необязательным. Для одного соглашения может указываться несколько изменений реестровой записи.
+changes.guid;string;Уникальный GUID
+changes.numberdoc;string;Номер документа основания
+changes.docsosn;string;Документ основания
+changes.date;string;Дата внесения изменений (Техническое поле)
+changes.text;string;Описание изменений.
+changes.docdate;datetime;Дата внесения изменений
+changes.num;string;Порядковый номер документа в реестровой записи.
+changes.vidssdop;string;
+grbs;dict;В блоке указаны реквизиты ГРБС. Блок является обязательным. Для одного соглашения указывается один ГРБС.
+grbs.regionCode;string;Уникальный код региона
+grbs.buildingType;string;Тип и номер здания/ сооружения.
+grbs.shortName;string;
+grbs.localName;string;
+grbs.dateAccount;datetime;Дата постановки на учет в налоговом органе.
+grbs.countryCode;string;Кодовое обозначение страны
+grbs.countryName;string;Наименование страны
+grbs.regionName;string;
+grbs.locationOktmo;string;
+grbs.fullName;string;
+grbs.objectType;string;
+grbs.postIndex;string;Почтовый индекс
+grbs.location;string;
+grbs.districtName;string;Наименование муниципального района, городского округа или внутригородской территории в составе субъекта Российской Федерации
+grbs.grbsAccount;string;
+grbs.tofkcode;string;
+grbs.kpp;string;КПП юридического лица получателя субсидии (при наличии).
+grbs.streetType;string;
+grbs.localCode;string;Населенный пункт
+grbs.settleName;string;Наименование городского/сельского поселения в составе муниципального района или внутригородского района городского округа
+grbs.ogrn;string;
+grbs.inn;string;ИНН юридического или физического лица получателя субсидии (при наличии).
+grbs.tofkname;string;
+grbs.codeReestr;string;Код по сводному реестру
+grbs.structType;string;
+grbs.codeBudgetreg;string;
+grbs.kbkInput;string;
+grbs.okopf;string;Код по общероссийскому классификатору организационно-правовых форм.
+grbs.roomType;string;Тип и номер помещения, расположенного в здании/сооружении.
+
+_id;string;Уникальный суррогатный ключ
+
+info;dict;Базовая информация об организации
+
+info.regNum;string;Учетный номер организации. Учетный номер организации, присваиваемый в ОрФК
+
+info.code;string;Код участника (неуникален)
+
+info.divisionParentName;string;Наименование организации, создавшей подразделение.
+
+info.divisionParentCode;string;Код организации, создавшей подразделение.
+
+info.ogrn;string;Код ОГРН
+
+info.fullName;string;Полное наименование организации. Указывается полное наименование в соответствии со сведениями ЕГРЮЛ. Для обособленных подразделений заполняется в соответствии с учредительными документами.
+
+info.shortName;string;Сокращенное наименование юридического лица на русском языке.
+
+info.inn;string;ИНН юридического или физического лица получателя субсидии (при наличии).
+
+info.kpp;string;КПП юридического лица получателя субсидии (при наличии).
+
+info.regDate;datetime;Дата регистрации
+
+info.okopfName;string;Наименование кода ОКОДПФ
+
+info.okopfCode;string;Код ОКОПФ
+
+info.okfsName;string;Наименование кода ОКФС
+
+info.okfsCode;string;Код ОКФС
+
+info.postIndex;string;Почтовый индекс
+
+info.cityType;string;Тип населённого пункта
+
+info.cityName;string;Населённый пункт
+
+info.streetType;string;Тип улицы
+
+info.streetName;string;Наименование улицы
+
+info.oktmoName;string;Наименование кода ОКТМО
+
+info.oktmoCode;string;Код ОКТМО
+
+info.orfkName;string;Наименование ОрФК обслуживания
+
+info.orfkCode;string;Код ОрФК обслуживания
+
+info.oksmName;string;Наименование страны по ОКСМ
+
+info.oksmCode;string;Код страны по ОКСМ
+
+info.location;string;Адрес в стране местонахождения
+
+info.kbkName;string;Наименование по справочнику «Главы», кроме организаций с уровнем бюджета:
+
+info.kbkCode;string;Код по справочнику «Главы», кроме организаций с уровнем бюджета:
+
+info.okoguName;string;Наименование по ОКОГУ
+
+info.okoguCode;string;Код по ОКОГУ
+
+info.okpoCode;string;Код по ОКПО Указывается код по справочнику «ОКПО».
+
+info.orgTypeName;string;Наименование типа организации
+
+info.orgTypeCode;string;Код типа организации
+
+info.establishmentKindName;string;Наименование типа учреждения
+
+info.establishmentKindCode;string;Код типа учреждения
+
+info.legalPersonKindName;string;Наименование способа образования юр. Лица
+
+info.legalPersonKindCode;string;Код способа образования юр. Лица
+
+info.ougvName;string;Наименование признака исполнения функций ФО/ОУГВФ
+
+info.ougvCode;string;Код признака исполнения функций ФО/ОУГВФ
+
+info.uoName;string;Наименование УО по Сводному реестру
+
+info.uoCode;string;Код УО по Сводному реестру
+
+info.creatorKindName;string;Наименование вида ППО, создавшего организацию
+
+info.creatorKindCode;string;Код вида ППО, создавшего организацию
+
+info.creatorPlaceName;string;Наименование территории публично-правового образования по ОКТМО.
+
+info.creatorPlaceCode;string;Код территории публично-правового образования по ОКТМО.
+
+info.founderKindName;string;Наименование вида публично-правового образования по ОКТМО - учредителя (участника).
+
+info.founderPlaceName;string;Наименование территории публично-правового образования по ОКТМО - учредителя (участника)Указывается полное наименование территории ППО учредителя (участника) организации.
+
+info.founderPlaceCode;string;Код территории публично-правового образования по ОКТМО - учредителя (участника).
+
+info.founderKindCode;string;Код вида публично-правового образования по ОКТМО - учредителя (участника).
+
+info.budgetLvlName;string;Наименование уровня бюджета организации
+
+info.budgetLvlCode;string;Указывается код уровня бюджета в соответствии со следующими значениями:
+
+info.budgetName;string;Наименование уровня бюджета организации
+
+info.budgetCode;string;Код бюджета организации
+
+info.statusCode;string;Код статуса организации
+
+info.statusName;string;Наименование статуса организации.
+
+info.house;string;Дом
+
+info.regionType;string;Тип региона
+
+info.regionName;string;наименование региона
+
+info.isOGV;boolean;Является органом власти
+
+info.isUch;string;Осуществляет функции учредителя.
+
+info.isObosob;boolean;Является обособленным подразделением
+
+info.orgStatus;string;Наименование статуса организации.
+
+info.recordNum;string;Уникальный номер реестровой записи
+
+info.parentCode;string;Код вышестоящего УБП по Сводному реестру.
+
+info.parentName;string;Наименование вышестоящего УБП по Сводному реестру
+
+info.okatoCode;string;Код ОКАТО
+
+info.okatoName;string;Наименование кода ОКАТО
+
+info.guid;string;Уникальный GUID
+
+info.status;string;Текущий статус
+
+info.controlNum;string;Контрольное число
+
+info.bidNum;string;bidNum
+
+info.firstRegDate;datetime;Дата первоначальной регистрации
+
+info.firstRegGuid;string;Уникальный GUID первоначальной регистрации
+
+info.lastRegGuid;string;ГУИД последней заявки на изменение
+
+info.lastRegDate;datetime;Дата заявки на включение записи
+
+info.lastRegNum;string;Номер последней заявки на изменение
+
+info.updateReason;string;Основание изменения записи
+
+info.updateNum;integer;Номер изменения реестровой записи
+
+info.inclusionDate;datetime;Дата включения
+
+info.exclusionDate;string;Дата исключения
+
+info.pubpCode;string;Код ПУБП
+
+info.rubpCode;string;Код РУБП
+
+info.nubpCode;string;Код НУБП
+
+info.cpzCode;string;Код СПЗ
+
+info.pgmyCode;string;Код ПГМУ
+
+info.firmName;string;Фирменное наименование
+
+info.kofkCode;string;Код по КОФК собственный.
+
+info.nameDocs;string;Сокращенное наименование, непредусмотренное учредительными документами
+
+info.accMgmt;string;Ведение бух. учета в обсоб. подразделении.
+
+info.regionCode;string;Уникальный код региона
+
+info.areaCode;string;Код территории
+
+info.areaName;string;Наменование территории
+
+info.cityCode;string;Код города
+
+info.localCode;string;Населенный пункт
+
+info.localName;string;Наименование населенного пункта
+
+info.streetCode;string;Код улицы
+
+info.building;string;Здание
+
+info.apartment;string;Офис
+
+info.reformationDocument;string;Наименование документа о реорган./ликвид.
+
+info.reformationDocumentNum;string;Номер документа о реорган./ликвид.
+
+info.reformationDocumentDate;string;Дата документа о реорган./ликвид.
+
+info.reformationName;string;Наименование формы реорганизации.
+
+info.reformationCode;string;Код формы реорганизации
+
+info.reformationStartDate;string;Дата начала процесса реорганизации
+
+info.reformationEndDate;string;Дата прекращения реорганизации юридического лица
+
+info.dateUpdate;datetime;Дата выгрузки на ЕПБС
+
+info.localType;string;Тип населённого пункта
+
+info.isExcluded;boolean;Условно исключена. Признак, указывающий, находится ли организация в процессе исключения из Сводного реестра
+
+info.isReorg;boolean;Требуется реорганизация. Признак, указывающий, требуется ли реорганизация в связи с исключением вышестоящей организации из Сводного реестра
+
+info.startDate;datetime;Дата начала действия записи
+
+info.endDate;string;Дата окончания действия записи
+
+info.loadDate;datetime;Дата загрузки данных
+
+info.areaType;string;Тип района
+
+info.regionKladrCode;string;Регион (код по КЛАДР)
+
+info.egrulnotincluded;string;
+
+info.parentrecordnum;string;Сведения о присвоенном уникальном номере реестровой записи организации, в отношении которой осуществляются специальные мероприятия
+
+info.planningstructuretype;string;Тип элемента планировочной структуры.
+
+info.planningstructurename;string;Наименование элемента планировочной структуры.
+
+info.reforfkCode;string;Код ОрФК обслуживания (orfkCode)
+
+info.contourTypeCode;string;Код типа контура
+
+info.specEventCode;string;Код наименования специального мероприятия в отношении организации
+
+info.naibznachuch;string;
+
+info.speceventcodedop1;string;Код наименования специального мероприятия в отношении организации
+
+info.speceventcodedop2;string;Код наименования специального мероприятия в отношении организации
+
+info.speceventcodedop3;string;Код наименования специального мероприятия в отношении организации
+
+authorities;list of [array];Органы, осуществляющие функции и полномочия учредителя
+
+activities;list of [array];Вид деятельности организации
+
+activities.activityCode;string;Код вида деятельности
+
+activities.activityName;string;Наименование вида деятельности
+
+activities.activityKind;string;Код типа вида деятельности
+
+heads;list of [array];Руководители организации
+
+heads.fio;string;Полное ФИО руководителя
+
+heads.post;string;Должность руководителя
+
+heads.docName;string;Наименование документа о назначении
+
+heads.docNum;string;Номер документа о назначении
+
+heads.docDate;datetime;Дата документа о назначении
+
+heads.headMain;boolean;Является ли главным руководителем
+
+successions;list of [array];Сведения о правопреемстве
+
+facialAccounts;list of [array];Сведения о лицевых счетах, открытых в территориальных органах Федерального казначейства
+
+facialAccounts.kindName;string;Наименование типа лицевого счета
+
+facialAccounts.kindCode;string;Код типа лицевого счета
+
+facialAccounts.num;string;Номер лицевого счета
+
+facialAccounts.createDate;datetime;Дата открытия
+
+facialAccounts.closeDate;string;Дата закрытия
+
+facialAccounts.status;string;Статус
+
+facialAccounts.openUfkCode;string;Код управления федерального казначейства
+
+facialAccounts.openUfkName;string;наименование управления Федерального казначейства
+
+facialAccounts.srvUfkCode;string;Код ОрФК обслуживания.
+
+facialAccounts.srvUfkName;string;Полное наименование ТОФК обслуживания. Указывается наименование ОрФК по месту обслуживания лицевого счета организации в соответствии со справочником ТОФК
+
+facialAccounts.openTofkName;string;Полное наименование ТОФК открытия.
+
+facialAccounts.refopenUfkCode;string;Код ТОФК открытия по справочнику 7710568760-TOFK
+
+facialAccounts.refsrvUfkCode;string;Код ОрФК обслуживания по справочнику 7710568760-TOFK
+
+facialAccounts.accountorgcode;string;Код по Сводному реестру ПБС принимающего полномочия
+
+facialAccounts.accountorgfullname;string;Наименование по Сводному реестру ПБС принимающего полномочия
+
+facialAccounts.ppocode;string;Код территории публично-правового образования по справочнику ОКТМО.
+
+facialAccounts.pponame;string;Наименование территории публично-правового образования по справочнику ОКТМО.
+
+foAccounts;list of [array];Сведения о лицевых счетах, открытых в финансовых органах
+
+participantPermissions;list of [array];Полномочия УБП
+
+participantPermissions.name;string;Наименование полномочия
+
+participantPermissions.code;string;Код полномочия
+
+participantPermissions.startDate;datetime;ата начала действия полномочия
+
+participantPermissions.endDate;string;Дата окончания действия полномочия
+
+nonParticipantPermissions;list of [array];Полномочия НУБП
+
+procurementPermissions;list of [array];Полномочия организации в сфере госзакупок
+
+contacts;list of [array];Контакты организации
+
+contacts.phone;string;Телефон
+
+contacts.site;string;Веб-сайт
+
+contacts.mail;string;Электронная почта
+
+acceptAuths;list of [array];Полномочия организации принятые
+
+transfauth;list of [array];Сведения о передаче полномочий финансового органа поселения финансовому органу муниципального района
+
+id;string;Уникальный суррогатный ключ
+
+attachment;list of [array];Файлы приложений
+
+contracts;list of [array];Основание для включения организации в Сводный реестр
+
+ubptransfauthbp;list of [array];Переданные полномочия исполнительно-распорядительного органа
+
+ubpfinfku;list of [array];Сведения об организации, осуществляющей финансовое обеспечение ФКУ
+
+ubpgetfin;list of [array];Сведения о праве организации получать источник дополнительного бюджетного финансирования
+
