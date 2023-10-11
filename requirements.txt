@@ -1,2 +1,4 @@
-click
-pymongo
+click>=8.1.6
+pymongo>=4.5.0
+pytest>=7.4.2
+setuptools>=65.5.0
